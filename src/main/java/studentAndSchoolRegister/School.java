@@ -11,8 +11,8 @@ public class School {
     private ArrayList<Student> students = new ArrayList<>();
 
     public School(String schoolName, int maxStudentNumbers) {
-        this.schoolName = schoolName;
-        this.maxStudentNumbers = maxStudentNumbers;
+       setSchoolName(schoolName);
+       setMaxStudentNumbers(maxStudentNumbers);
     }
 
     public String getSchoolName() {

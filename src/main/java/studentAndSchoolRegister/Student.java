@@ -7,9 +7,9 @@ public class Student {
     private int age;
 
     public Student(String name, String surName, int age) {
-        this.name = name;
-        this.surName = surName;
-        this.age = age;
+       setName(name);
+       setSurName(surName);
+       setAge(age);
     }
 
     public String getName() {
@@ -33,7 +33,12 @@ public class Student {
     }
 
     public void setAge(int age) {
+
+        if(age<15)
+            throw new RuntimeException("The age limit for registration is 15");
+
         this.age = age;
+
     }
 
     @Override
