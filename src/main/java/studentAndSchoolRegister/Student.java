@@ -36,9 +36,7 @@ public class Student {
 
         if(age<15)
             throw new RuntimeException("The age limit for registration is 15");
-
         this.age = age;
-
     }
 
     @Override
@@ -49,6 +47,5 @@ public class Student {
                 ", age=" + age +
                 '}';
     }
-
 
 }

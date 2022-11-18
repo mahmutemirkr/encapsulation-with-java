@@ -8,10 +8,8 @@ public class SchoolRunner {
 
     public static void main(String[] args) {
 
-
         StudentRegister studentRegister = new StudentRegister();
         studentRegister.register();
-
 
     }
 

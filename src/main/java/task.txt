@@ -1,9 +1,8 @@
-//  1- fieldları ad, soyad, yas olan bir Ogrenci sınıfı tanımlayınız.
-    //  2- Ogrenci sınıfına ad, soyad  ve yas dan oluşan bir consructor tanımlayınız.
-    //  3- Bütün fieldlar için encapsulation uygulayınız.
-    //  4- Bir okul isimli sınıf tanımlayınız, fieldları okulAd, maxOgrenciSayisi,
-    //     ArrayList cinsinden Öğrencileri olsun.
-    //  5- main metodunun olduğu OkulMain isimli bir sınıf oluşturunuz.
-    //  6- bir okul nesnesi oluşturup, bu okula max öğrenci miktarına ulaşana kadar öğrenci
-    //     ekleyiniz.Fakat oluşturacağınız öğrencilerin yaşı 15 i geçmemeli.
-    //     bu yaşı geçen bir öğrenci eklenmek istenir ise yerine başka öğrenci isteyiniz.
+Define a Student class whose fields are name, surname, age.
+Define a consructor consisting of name, surname and age for the student class.
+Apply encapsulation for all fields.
+Define a class named school, its fields are schoolName, maxNumber of Students,
+Create a class named SchoolMain with main method.
+Create a school object and students until this school reaches the maximum number of students
+add. However, the age of the students you will create should not exceed 15.
+If a student over this age is wanted to be added, ask for another student instead.

@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class StudentRegister {
 
-    public void register(){
+    public void register() {
 
-        School school = new School("JavaWithEncapsulation",3);
+        School school = new School("JavaWithEncapsulation", 3);
         List<Student> studentsOfTheSchool = school.getStudents();
 
         int maxStudentsCounter = 1;
@@ -27,22 +27,21 @@ public class StudentRegister {
 
             System.out.println("----------------------------------------");
 
+            try {
 
-            try{
-
-                Student student = new Student(studentName,studentSurName,studentAge);
+                Student student = new Student(studentName, studentSurName, studentAge);
                 studentsOfTheSchool.add(student);
                 maxStudentsCounter++;
 
-            } catch (Exception e){
+            } catch (Exception e) {
 
                 System.out.println(e.getMessage());
 
             }
 
-        }while (maxStudentsCounter<=school.getMaxStudentNumbers());
+        } while (maxStudentsCounter <= school.getMaxStudentNumbers());
 
-        for(Student student: school.getStudents()){
+        for (Student student : school.getStudents()) {
             System.out.println("Students = " + student);
         }
     }
