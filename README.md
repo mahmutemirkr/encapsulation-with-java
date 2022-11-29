@@ -13,6 +13,7 @@ Encapsulation with Maven &amp; JAVA - Runner | Student and School
    <ol> If a student over this age is wanted to be added, ask for another student instead. </ol>
    
    
+   
  ## What is Encapsulation
  <li>
  Encapsulation is a concept in object-oriented programming that protects any object's 
